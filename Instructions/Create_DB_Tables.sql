@@ -1,3 +1,6 @@
+
+--Dropping tables
+
 DROP TABLE departments;
 DROP TABLE dept_emp;
 DROP TABLE dept_manager;
@@ -5,12 +8,15 @@ DROP TABLE employees;
 DROP TABLE salaries;
 DROP TABLE titles;
 
+--Creating "departments" table
+
 CREATE TABLE "departments" (
     "dept_no" VARCHAR PRIMARY KEY, 
     "dept_name" VARCHAR  
 );
 
 
+--Creating "employees" table
 
 CREATE TABLE employees (
    	emp_no INT PRIMARY KEY NOT NULL,
@@ -22,6 +28,7 @@ CREATE TABLE employees (
     
 );
 
+--Creating "dept_emp" table
 
 CREATE TABLE dept_emp (
    	emp_no INT  NOT NULL,
@@ -34,6 +41,7 @@ CREATE TABLE dept_emp (
 );
 
 
+--Creating "dept_manager" table 
 
 CREATE TABLE "dept_manager" (
     "dept_no" VARCHAR   NOT NULL,
@@ -46,6 +54,7 @@ CREATE TABLE "dept_manager" (
 );
 
 
+--Creating "salaries" table
 
 CREATE TABLE "salaries" (
     "emp_no" INTEGER   NOT NULL,
@@ -54,6 +63,8 @@ CREATE TABLE "salaries" (
     "from_date" DATE   NOT NULL,
     "to_date" DATE   NOT NULL
   );
+
+--Creating "titles" table
 
 CREATE TABLE titles (
 	emp_no INT NOT NULL,
