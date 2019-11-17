@@ -1,6 +1,16 @@
-# Employee Database: A Mystery in Two Parts
+# Employee Database
 
 ![sql.png](sql.png)
+
+I completed this project during my time at the [Columbia Engineering Data Analytics Bootcamp](https://bootcamp.cvn.columbia.edu/data/nyc/landing/?s=Google-Brand&pkw=%2Bdata%20%2Banalytics%20%2Bcolumbia&pcrid=392444639754&pmt=b&utm_source=google&utm_medium=cpc&utm_campaign=%5BS%5D_GRD_Data_Brand_ALL_NYC_BMM_New&utm_term=%2Bdata%20%2Banalytics%20%2Bcolumbia&utm_content=392444639754&s=google&k=%2Bdata%20%2Banalytics%20%2Bcolumbia&gclid=Cj0KCQiA2b7uBRDsARIsAEE9XpFH-2wU0-_7jtxCV_PCkGBR0prlyKtvpF2-nAWU1tO4oYci5h1QStsaAsg5EALw_wcB&gclsrc=aw.ds) located in New York, NY.
+
+
+#### -- Project Status: [Completed]
+
+
+## Project Description
+
+The purpose of this project is to analyze the data of fantasy game, Heroes of Pymoli created by a gaming company. As the lead analyst, I generated a report that breaks down the game's purchasing data into meaningful insights for players.
 
 ## Background
 
