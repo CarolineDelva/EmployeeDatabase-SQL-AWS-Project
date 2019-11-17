@@ -48,17 +48,17 @@ The final report includes each of the following:
 
 
 ## Technologies
-* SQL (Postgres, AWS, PGAdmin)
+* SQL (Postgres, AWS, pgAdmin)
 
 
 ## Getting Started
 
 1. Clone this repository (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. CSVs can be found in the [data](https://github.com/CarolineDelva/EmployeeDatabase-SQL-AWS-Project/tree/master/data) folder.
+2. Find the CSVs in the [data](https://github.com/CarolineDelva/EmployeeDatabase-SQL-AWS-Project/tree/master/data) folder.
 
 3. Follow the [ERD](https://github.com/CarolineDelva/EmployeeDatabase-SQL-AWS-Project/blob/master/Quick%20Database%20Diagram.PNG) to model the data.
 4. Create a Postgres database host in [AWS](https://aws.amazon.com/).
-5. Create a sql database in [PGAdmin](https://www.pgadmin.org/).
+5. Create a SQL database in [PGAdmin](https://www.pgadmin.org/).
 4. To create the tables, use the [Create_DB_Tables.sql](https://github.com/CarolineDelva/EmployeeDatabase-SQL-AWS-Project/blob/master/Create_DB_Tables.sql) script.
 
 5. To analyze the data, use the [Data_Analysis.sql](https://github.com/CarolineDelva/EmployeeDatabase-SQL-AWS-Project/blob/master/Data_Analysis.sql) script.
@@ -69,7 +69,7 @@ The final report includes each of the following:
 ### Pyber Ride Sharing Data(2016) Bubble Plot 
 
 
-![Bubble plot](ImagesPyber/BubblePlot2.png)
+![Bubble plot](Quick Database Diagram.PNG)
 
 
 ### Total Fares by City Type
