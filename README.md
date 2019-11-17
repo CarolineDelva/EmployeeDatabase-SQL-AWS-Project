@@ -16,17 +16,11 @@ The final report includes each of the following:
 
 1. Data Modeling
 
+- An entity-relationship model of the tables using [quickdatabasediagrams](http://www.quickdatabasediagrams.com).
+
 2. Data Engineering
 
-3. Data Analysis
-
-## Instructions
-
-#### Data Modeling
-
-Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like [http://www.quickdatabasediagrams.com](http://www.quickdatabasediagrams.com).
-
-#### Data Engineering
+- A postgres database hosted in [AWS](https://aws.amazon.com/)
 
 * Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
 
