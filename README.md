@@ -24,11 +24,11 @@ The final report includes each of the following:
 
 - A table schema for each of the six CSV files with specific data types, primary keys, foreign keys, and other constraints.
 
-- Imported CSV files into the corresponding SQL table.
+- Imported CSV files into their corresponding SQL table.
 
 #### Data Analysis
 
-Once you have a complete database, do the following:
+The final report includes each of the following:
 
 1. List the following details of each employee: employee number, last name, first name, gender, and salary.
 
@@ -48,9 +48,8 @@ Once you have a complete database, do the following:
 
 
 
-
 ## Technologies
-* Python (Pandas, Numpy, Matplotlib, Jypyter Notebook)
+* SQL (Postgres, AWS, PGAdmin)
 
 
 ## Getting Started
