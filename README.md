@@ -14,17 +14,17 @@ The purpose of this project is to research employees at a corporation from the 1
 
 The final report includes each of the following:
 
-1. Data Modeling
+#### Data Modeling
 
 - An entity-relationship model of the tables using [quickdatabasediagrams](http://www.quickdatabasediagrams.com).
 
-2. Data Engineering
+#### Data Engineering
 
 - A postgres database hosted in [AWS](https://aws.amazon.com/)
 
-* Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
+- A table schema for each of the six CSV files with specific data types, primary keys, foreign keys, and other constraints.
 
-* Import each CSV file into the corresponding SQL table.
+- Imported CSV files into the corresponding SQL table.
 
 #### Data Analysis
 
