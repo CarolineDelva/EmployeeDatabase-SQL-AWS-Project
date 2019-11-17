@@ -83,18 +83,23 @@ The final report includes each of the following:
 ![output1](Pictures/output1.PNG)
 
 2. A list of employees who were hired in 1986.
+
+
 ![output2](Pictures/output2.PNG)
 
 
 3. A list of the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
 
+
 ![output3](Pictures/output3.PNG)
 
 4. A list of the department of each employee with the following information: employee number, last name, first name, and department name.
 
+
 ![output4](Pictures/output4.PNG)
 
 5. A list of all employees whose first name is "Hercules" and last names begin with "B."
+
 ![output5](Pictures/output5.PNG)
 
 
@@ -110,17 +115,6 @@ The final report includes each of the following:
 
 ![output8](Pictures/output8.PNG)
 
-
-![fares by city](ImagesPyber/totalfaresbycity.PNG)
-
-### Total Rides by City Type
-![rides by city](ImagesPyber/totalridesbytype.PNG)
-
-
-
-### Total Drivers by City Type
-
-![drivers by city](ImagesPyber/TotalDriversbyCityType.PNG)
 
 ## Conclusion
 -  Based on 'Pyber Ride Sharing Data(2016)' scatter plot, we see that Urban cities have the greatest number of drivers and rides, but they have lowest average fare. We see that suburban cities have an average number of drivers and rides and they have an average fare. We also see that rural cities have the smalest number of drivers and rides, but they have greatest average fare.
