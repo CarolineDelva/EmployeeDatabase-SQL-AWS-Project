@@ -69,7 +69,7 @@ The final report includes each of the following:
 ### Pyber Ride Sharing Data(2016) Bubble Plot 
 
 
-![Bubble plot](Quick Database Diagram.PNG)
+![Bubble plot](QuickDatabaseDiagram.PNG)
 
 
 ### Total Fares by City Type
