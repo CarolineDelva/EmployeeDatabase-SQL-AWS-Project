@@ -12,7 +12,6 @@ I completed this project during my time at the [Columbia Engineering Data Analyt
 
 The purpose of this project is to research employees at a corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six [CSV files](https://github.com/CarolineDelva/EmployeeDatabase-SQL-AWS-Project/tree/master/data).
 
-The final report includes each of the following:
 
 #### Data Modeling
 
@@ -30,21 +29,21 @@ The final report includes each of the following:
 
 The final report includes each of the following:
 
-1. List the following details of each employee: employee number, last name, first name, gender, and salary.
+1. A list of the following details of each employee: employee number, last name, first name, gender, and salary.
 
-2. List employees who were hired in 1986.
+2. A list of employees who were hired in 1986.
 
-3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
+3. A list of the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
 
-4. List the department of each employee with the following information: employee number, last name, first name, and department name.
+4. A list of the department of each employee with the following information: employee number, last name, first name, and department name.
 
-5. List all employees whose first name is "Hercules" and last names begin with "B."
+5. A list of all employees whose first name is "Hercules" and last names begin with "B."
 
-6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
+6. A list of all employees in the Sales department, including their employee number, last name, first name, and department name.
 
-7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+7. A list of all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
-8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+8. A list of the frequency count of employee last names, i.e., how many employees share each last name in descending order,.
 
 
 
@@ -55,10 +54,15 @@ The final report includes each of the following:
 ## Getting Started
 
 1. Clone this repository (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. CSVs can be found in the [data](https://github.com/CarolineDelva/Pyber-Matplotlib-Project/tree/master/Pyber/data) in this repository.
+2. CSVs can be found in the [data](https://github.com/CarolineDelva/EmployeeDatabase-SQL-AWS-Project/tree/master/data) folder.
 
-3. The Python script is located in the [Pyber](https://github.com/CarolineDelva/Pyber-Matplotlib-Project/blob/master/Pyber/pyber%20script.ipynb) folder.
-4. Run the script in a [Jupyter Notebook](https://jupyter.org/).
+3. Follow the [ERD](https://github.com/CarolineDelva/EmployeeDatabase-SQL-AWS-Project/blob/master/Quick%20Database%20Diagram.PNG) to model the data.
+4. Create a Postgres database host in [AWS](https://aws.amazon.com/).
+5. Create a sql database in [PGAdmin](https://www.pgadmin.org/).
+4. To create the tables, use the [Create_DB_Tables.sql](https://github.com/CarolineDelva/EmployeeDatabase-SQL-AWS-Project/blob/master/Create_DB_Tables.sql) script.
+
+5. To analyze the data, use the [Data_Analysis.sql](https://github.com/CarolineDelva/EmployeeDatabase-SQL-AWS-Project/blob/master/Data_Analysis.sql) script.
+
 
 ## Visualizations
 
