@@ -52,38 +52,53 @@ Once you have a complete database, do the following:
 
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
-## Bonus (Optional)
 
-As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to take the following steps to generate a visualization of the data, with which you will confront your boss:
 
-1. Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. Feel free to use the code below to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
 
-   ```sql
-   from sqlalchemy import create_engine
-   engine = create_engine('postgresql://localhost:5432/<your_db_name>')
-   connection = engine.connect()
-   ```
+## Technologies
+* Python (Pandas, Numpy, Matplotlib, Jypyter Notebook)
 
-* Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) for more information.
 
-* If using a password, do not upload your password to your GitHub repository. See [https://www.youtube.com/watch?v=2uaTPmNvH0I](https://www.youtube.com/watch?v=2uaTPmNvH0I) and [https://martin-thoma.com/configuration-files-in-python/](https://martin-thoma.com/configuration-files-in-python/) for more information.
+## Getting Started
 
-2. Create a bar chart of average salary by title.
+1. Clone this repository (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
+2. CSVs can be found in the [data](https://github.com/CarolineDelva/Pyber-Matplotlib-Project/tree/master/Pyber/data) in this repository.
 
-3. You may also include a technical report in markdown format, in which you outline the data engineering steps taken in the homework assignment.
+3. The Python script is located in the [Pyber](https://github.com/CarolineDelva/Pyber-Matplotlib-Project/blob/master/Pyber/pyber%20script.ipynb) folder.
+4. Run the script in a [Jupyter Notebook](https://jupyter.org/).
 
-## Epilogue
+## Visualizations
 
-Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
+### Pyber Ride Sharing Data(2016) Bubble Plot 
 
-## Submission
 
-* Create an image file of your ERD.
+![Bubble plot](ImagesPyber/BubblePlot2.png)
 
-* Create a `.sql` file of your table schemata.
 
-* Create a `.sql` file of your queries.
+### Total Fares by City Type
 
-* (Optional) Create a Jupyter Notebook of the bonus analysis.
+![fares by city](ImagesPyber/totalfaresbycity.PNG)
 
-* Create and upload a repository with the above files to GitHub and post a link on BootCamp Spot.
+### Total Rides by City Type
+![rides by city](ImagesPyber/totalridesbytype.PNG)
+
+
+
+### Total Drivers by City Type
+
+![drivers by city](ImagesPyber/TotalDriversbyCityType.PNG)
+
+## Conclusion
+-  Based on 'Pyber Ride Sharing Data(2016)' scatter plot, we see that Urban cities have the greatest number of drivers and rides, but they have lowest average fare. We see that suburban cities have an average number of drivers and rides and they have an average fare. We also see that rural cities have the smalest number of drivers and rides, but they have greatest average fare.
+
+- Rides and drivers are not too avalaible in rural cities, which is making the fares more expensive. Rides and drivers are somewhat available in suburban cities, which is making the fares have an average rate. Rides and drivers are really available in urban cities, which is making the fares cheaper.
+
+- The total ride percentage is the greatest in urban cities (68.4%), the total ride percentage is the second greatest in suburban cities (26.3%), and the total ride percentage is the lowest in rural cities (5.3%).
+
+- The total drivers percentage is the greatest in urban cities (80.9%), the total drivers percentage is the second greatest in suburban cities (16.8%), and the total drivers percentage is the lowest in rural cities (2.6%). 
+
+- Rides and drivers are not too avalaible in rural cities, which is making the fares more expensive. Rides and drivers are somewhat available in suburban cities, which is making the fares have an average rate. Rides and drivers are really available in urban cities, which is making the fares cheaper.
+
+## Contact
+* [Visit my LinkedIn](https://www.linkedin.com/in/caroline-delva-5184a172/) 
+* [Visit my portfolio](https://carolinedelva.github.io/CarolineDelvaPortfolio/) 
