@@ -10,13 +10,9 @@ I completed this project during my time at the [Columbia Engineering Data Analyt
 
 ## Project Description
 
-The purpose of this project is to analyze the data of fantasy game, Heroes of Pymoli created by a gaming company. As the lead analyst, I generated a report that breaks down the game's purchasing data into meaningful insights for players.
+The purpose of this project is to research employees at a corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six [CSV files](https://github.com/CarolineDelva/EmployeeDatabase-SQL-AWS-Project/tree/master/data).
 
-## Background
-
-It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
-
-In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
+The final report includes each of the following:
 
 1. Data Modeling
 
