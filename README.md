@@ -123,16 +123,6 @@ The final report includes each of the following:
 ![output8](Pictures/output8.PNG)
 
 
-## Conclusion
--  Based on 'Pyber Ride Sharing Data(2016)' scatter plot, we see that Urban cities have the greatest number of drivers and rides, but they have lowest average fare. We see that suburban cities have an average number of drivers and rides and they have an average fare. We also see that rural cities have the smalest number of drivers and rides, but they have greatest average fare.
-
-- Rides and drivers are not too avalaible in rural cities, which is making the fares more expensive. Rides and drivers are somewhat available in suburban cities, which is making the fares have an average rate. Rides and drivers are really available in urban cities, which is making the fares cheaper.
-
-- The total ride percentage is the greatest in urban cities (68.4%), the total ride percentage is the second greatest in suburban cities (26.3%), and the total ride percentage is the lowest in rural cities (5.3%).
-
-- The total drivers percentage is the greatest in urban cities (80.9%), the total drivers percentage is the second greatest in suburban cities (16.8%), and the total drivers percentage is the lowest in rural cities (2.6%). 
-
-- Rides and drivers are not too avalaible in rural cities, which is making the fares more expensive. Rides and drivers are somewhat available in suburban cities, which is making the fares have an average rate. Rides and drivers are really available in urban cities, which is making the fares cheaper.
 
 ## Contact
 * [Visit my LinkedIn](https://www.linkedin.com/in/caroline-delva-5184a172/) 
