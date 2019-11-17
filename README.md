@@ -64,15 +64,52 @@ The final report includes each of the following:
 5. To analyze the data, use the [Data_Analysis.sql](https://github.com/CarolineDelva/EmployeeDatabase-SQL-AWS-Project/blob/master/Data_Analysis.sql) script.
 
 
-## Visualizations
+## Output
 
-### Pyber Ride Sharing Data(2016) Bubble Plot 
-
-
-![Bubble plot](QuickDatabaseDiagram.PNG)
+### Employee Database Data Modeling 
 
 
-### Total Fares by City Type
+![Data Modeling](QuickDatabaseDiagram.PNG)
+
+
+### Data Engineering 
+
+
+### Data Analysis
+
+1. A list of the following details of each employee: employee number, last name, first name, gender, and salary.
+
+
+![output1](Pictures/output1.PNG)
+
+2. A list of employees who were hired in 1986.
+![output2](Pictures/output2.PNG)
+
+
+3. A list of the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
+
+![output3](Pictures/output3.PNG)
+
+4. A list of the department of each employee with the following information: employee number, last name, first name, and department name.
+
+![output4](Pictures/output4.PNG)
+
+5. A list of all employees whose first name is "Hercules" and last names begin with "B."
+![output5](Pictures/output5.PNG)
+
+
+6. A list of all employees in the Sales department, including their employee number, last name, first name, and department name.
+
+![output6](Pictures/output6.PNG)
+
+7. A list of all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+
+![output7](Pictures/output7.PNG)
+
+8. A list of the frequency count of employee last names, i.e., how many employees share each last name in descending order,.
+
+![output8](Pictures/output8.PNG)
+
 
 ![fares by city](ImagesPyber/totalfaresbycity.PNG)
 
